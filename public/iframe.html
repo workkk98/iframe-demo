@@ -15,7 +15,11 @@
     </script>
 </head>
 <body>
-  <div class="div">我是内嵌的页面,用于演示allow属性和referrerpolicy属性</div>
+  <div class="div">
+    <div>我是内嵌的页面，父元素加载我时</div>
+    <div>allow="fullscreen 'none'" 即不允许fullscreen</div>
+    <div>referrerpolicy="no-referrer" 即不允许http请求携带referer</div>
+  </div>
   <div class="btn">点击我全屏显示</div>
 </body>
 </html>

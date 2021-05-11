@@ -21,5 +21,9 @@
       <input type="submit" value="Submit" class="btn" />
   </form>
   <div class="btn alert">点击我Alert弹窗</div>
+  <script>
+    console.log('allow scripts');
+    console.log('判断父window是否是顶级窗口', window.parent.self === window.parent);
+  </script>
 </body>
 </html>
